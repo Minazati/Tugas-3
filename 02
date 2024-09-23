@@ -1,0 +1,19 @@
+n = 8
+for i in range(n):
+    for j in range(i + 1):
+        print(" ", end=" ")
+    for j in range (i, n):
+        print("*",end=" ")
+    print()
+
+
+
+PS C:\Users\toshiba> & C:/Users/toshiba/AppData/Local/Microsoft/WindowsApps/python3.11.exe "d:/Kuliah/Pola bintang bertingkat.py"
+  * * * * * * * * 
+    * * * * * * * 
+      * * * * * * 
+        * * * * * 
+          * * * * 
+            * * * 
+              * * 
+                * 
